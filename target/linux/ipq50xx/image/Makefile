@@ -46,4 +46,17 @@ define Device/redmi_ax3000
 endef
 TARGET_DEVICES += redmi_ax3000
 
+define Device/xiaomi_ax6000
+  $(call Device/FitImage)
+  $(call Device/UbiFit)
+  SOC := ipq5018
+  DEVICE_VENDOR := Xiaomi
+  DEVICE_MODEL := AX6000
+  BLOCKSIZE := 128k
+  PAGESIZE := 2048
+  DEVICE_DTS_CONFIG := config@mp03.1
+  IMAGES := nand-factory.ubi
+endef
+TARGET_DEVICES += xiaomi_ax6000
+
 $(eval $(call BuildImage))

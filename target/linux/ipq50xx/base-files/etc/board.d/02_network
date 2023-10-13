@@ -14,6 +14,11 @@ ipq50xx_setup_interfaces()
 				"1:lan:1" "2:lan:2" "3:lan:3" \
 				"4:wan"
 			;;
+		xiaomi,ax6000)
+			ucidef_add_switch "switch0"
+			ucidef_set_interfaces_lan_wan "eth1" "eth0"
+			ucidef_add_switch "switch1" "1" "0"
+			;;
 	esac
 }
 

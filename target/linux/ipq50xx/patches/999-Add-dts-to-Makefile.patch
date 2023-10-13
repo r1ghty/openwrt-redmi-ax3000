@@ -13,7 +13,7 @@ index 6f88cb1c5d84..7350fa4e6a0c 100644
  	qcom-ipq4019-ap.dk04.1-c3.dtb \
  	qcom-ipq4019-ap.dk07.1-c1.dtb \
  	qcom-ipq4019-ap.dk07.1-c2.dtb \
-+	qcom-ipq5000-ax3000.dtb \
++	qcom-ipq5018-ax6000.dtb \
  	qcom-ipq5018-mp03.1-c2.dtb \
  	qcom-ipq8064-ap148.dtb \
  	qcom-ipq8064-rb3011.dtb \
@@ -25,7 +25,7 @@ index 0d8b516362bc..f04923324f52 100644
  dtb-$(CONFIG_ARCH_QCOM)	+= apq8094-sony-xperia-kitakami-karin_windy.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= apq8096-db820c.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= apq8096-ifc6640.dtb
-+dtb-$(CONFIG_ARCH_QCOM)	+= ipq5000-ax3000.dtb
++dtb-$(CONFIG_ARCH_QCOM)	+= ipq5018-ax6000.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= ipq5018-mp03.1-c2.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= ipq6018-cp01-c1.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= ipq8074-hk01.dtb
